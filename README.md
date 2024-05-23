@@ -4,7 +4,7 @@
 - **sebelum menginstal masukan ip di file izin untuk mendapatkan izin install script** 
 
 ### INSTALL SCRIPT
-<pre><code>wget https://raw.githubusercontent.com/cmdecho/vip/main/premi.sh && chmod +x premi.sh && ./premi.sh</code></pre>
+<pre><code>wget https://raw.githubusercontent.com/Namikazeudin12/vip/main/premi.sh && chmod +x premi.sh && ./premi.sh</code></pre>
 
 
 ### OS REKOMENDASI 
