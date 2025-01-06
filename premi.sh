@@ -982,6 +982,7 @@ clear
     install_xray
     ssh
     udp_mini
+    install_udp_custom
     ssh_slow
     ins_SSHD
     ins_dropbear
