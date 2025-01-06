@@ -621,6 +621,17 @@ systemctl start udp-mini-3
 print_success "Limit Quota Service"
 }
 
+function install_udp_custom() {
+clear
+# // Install UDP CUSTOM
+    print_install "Memasang udp custom"
+    wget -O udp-custom.sh https://raw.githubusercontent.com/Namikazeudin12/vip/main/udp-custom.sh
+    chmod +x udp-custom.sh
+    bash udp-custom.sh  # Menjalankan skrip
+    rm -f udp-custom.sh  # Hapus file setelah eksekusi
+   print_success "UDP Custom berhasil diinstal"
+}
+
 function ssh_slow(){
 clear
 # // Installing UDP Mini
