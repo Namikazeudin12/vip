@@ -621,7 +621,7 @@ systemctl start udp-mini-3
 print_success "Limit Quota Service"
 }
 
-function install_udp_custom() {
+function install_udp_custom(){
 clear
 # // Install UDP CUSTOM
     print_install "Memasang udp custom"
