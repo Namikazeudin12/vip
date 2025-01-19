@@ -772,8 +772,6 @@ sudo systemctl enable --now fail2ban
 
 # Instal DDOS Flate
 	mkdir /usr/local/ddos
-fi
-
 clear
 # banner
 echo "Banner /etc/kyt.txt" >>/etc/ssh/sshd_config
